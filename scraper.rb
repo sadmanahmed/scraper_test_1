@@ -26,6 +26,8 @@ while page <= last_page
   pagination_parsed_page = Nokogiri::HTML(pagination_unparsed_page.body)
   pagination_products = pagination_parsed_page.css('div.book-list-wrapper')
 
+
+
   pagination_products.each  do|product|
     product ={
       title: product.css('p.book-title').text,
