@@ -34,20 +34,29 @@ while page <= last_page
       discounted_price: product.css('span').text,
       url: "https://rokomari.com/"+product.css('a')[0].attributes["href"].value
     }
-    #product_array << product
     #puts "Added Title : #{product[:title]}"
     #puts " "
-
     book_url = product[:url]
     book_unparsed_page = HTTParty.get(book_url)
     book_parsed_page = Nokogiri::HTML(book_unparsed_page.body)
 
       book = {
-        summary: book_parsed_page.css('div.details-book-additional-info__content-summery.truncate').text.gsub(/\n/,"").strip
+        summary: book_parsed_page.css('div.details-book-additional-info__content-summery.truncate').text.gsub(/\n\s+/,"").strip
       }
 
-      pro = product.merge(book)
-      product_array << pro
+    book_perser = book_parsed_page.css('#book-additional-specification > table > tr')
+    @book_summary = {}
+    book_perser.each do |tr|
+      label=tr.css('td[1]').text
+      value=tr.css('td[2]').text.split(',').map { |s| s.strip }.join(',')
+      scrap_info = { label => value }
+      @book_summary=@book_summary.merge(scrap_info)
+      #byebug
+    end
+    #byebug
+      product = product.merge(book)
+      product = product.merge(@book_summary)
+      product_array << product
 
       #byebug
   end
@@ -57,10 +66,10 @@ end
 #byebug
 #binding.pry
 #byebug
-CSV.open('test.csv','w') do |csv|
+  CSV.open('test.csv','w') do |csv|
 
 
-    csv << ['Title','Author','Original Price','Discounted Price','URL','Summary']
+    csv << ['Title','Author','Original Price','Discounted Price','URL','Summary','Book_Title','Book_Author','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
     product_array.each do |product|
       csv << CSV::Row.new(product.keys,product.values)
     end
