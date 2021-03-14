@@ -41,7 +41,7 @@ while page <= last_page
     book_parsed_page = Nokogiri::HTML(book_unparsed_page.body)
 
       book = {
-        summary: book_parsed_page.css('div.details-book-additional-info__content-summery.truncate').text.gsub(/\n\s+/,"").strip
+        summary: book_parsed_page.css('div.details-book-additional-info__content-summery.truncate').text.gsub(/\t\n\s+/,"").strip
       }
 
     book_perser = book_parsed_page.css('#book-additional-specification > table > tr')
@@ -63,14 +63,35 @@ while page <= last_page
 
   page += 1
 end
+temp = {
+      title: " ",
+      author: "",
+      original_price: " ",
+      discounted_price: " ",
+      url: " ",
+      summary: " ",
+      "Title" => " ",
+      "Author"=>" ",
+      "Translator"=>" ",
+      "Editor" => " ",
+      "Publisher"=>" ",
+      "ISBN"=>" ",
+      "Edition"=>" ",
+      "Number of Pages"=>" ",
+      "Country"=>" ",
+      "Language"=>" "
+
+
+    }
 #byebug
 #binding.pry
 #byebug
-  CSV.open('test.csv','w') do |csv|
+  CSV.open('sheba.csv','w') do |csv|
 
 
-    csv << ['Title','Author','Original Price','Discounted Price','URL','Summary','Book_Title','Book_Author','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
+    csv << ['Title','Author','Original Price','Discounted Price','URL','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
     product_array.each do |product|
+      product = temp.merge(product)
       csv << CSV::Row.new(product.keys,product.values)
     end
 
