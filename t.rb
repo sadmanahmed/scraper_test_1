@@ -28,6 +28,7 @@ CSV.open('test1.csv','w') do |csv|
   a.each do |h1|
     s= []
     h1= temp.merge(h1)
+    puts h1
     #byebug
     h1.each do |key,value|
         s << value
