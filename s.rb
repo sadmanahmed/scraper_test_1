@@ -8,6 +8,8 @@ require 'language_converter'
 def scraper
 puts "Give the URL"
 url = gets.chomp
+url= url+"?page=1"
+#byebug
 driver = Selenium::WebDriver.for :chrome
 driver.navigate.to "#{url}"
 wait = Selenium::WebDriver::Wait.new(:timeout => 10)
@@ -36,12 +38,15 @@ last_page = (total_products.to_f / per_page.to_f).ceil
 
 n=0
 publisher =parsed_page.css('div.media-body').text.gsub(/\n/," ").strip
-
+a = url
 while page <= last_page
-  pagination_url =
-  "https://www.prothoma.com/publisher/%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AA%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%A8%E0%A7%80?page=#{page}"
-  a= "https://www.prothoma.com/publisher/%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%A8%E0%A7%80?page=#{page}"
-  byebug
+  # pagination_url =
+  # "https://www.prothoma.com/publisher/%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AA%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%A8%E0%A7%80?page=#{page}"
+
+  x= a.delete_suffix(a[-1]) + "#{page}"
+
+  pagination_url = x
+
   pagination_unparsed_page = HTTParty.get(pagination_url)
   pagination_parsed_page = Nokogiri::HTML(pagination_unparsed_page.body)
   pagination_products = pagination_parsed_page.css('div.product_single')
@@ -75,5 +80,6 @@ temp = {
       csv << CSV::Row.new(product.keys,product.values)
     end
   end
+  driver.quit
 end
 scraper
