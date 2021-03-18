@@ -17,7 +17,7 @@ pub_list = parsed_page.css('div.category_list_single_block')
 
 publisher_array = Array.new
 
-pub_first_page = 22
+pub_first_page = 19
 pub_last_page =22
 a =url
 while pub_first_page <= pub_last_page
