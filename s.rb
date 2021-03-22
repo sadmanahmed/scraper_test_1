@@ -4,7 +4,7 @@ require 'byebug'
 require 'csv'
 #require 'pry'
 require 'selenium-webdriver'
-require 'language_converter'
+#require 'language_converter'
 def scraper
 
 #puts "Give the URL"
