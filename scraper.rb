@@ -14,10 +14,10 @@ parsed_page = Nokogiri::HTML(unparsed_page.body)
 pub_list = parsed_page.css("div.container>ul>li")
 
 publisher_array = Array.new
-pub_first_page = 43
-pub_last_page = 45
-
-
+pub_first_page = 100
+pub_last_page = 100
+puts "#{pub_first_page} is starting the CSV processing"
+x12 = pub_first_page
 #byebug
 while pub_first_page <= pub_last_page
   x= a.delete_suffix(a[-1]) + "#{pub_first_page}"
@@ -150,7 +150,7 @@ end
         }
     #byebug
 
-      CSV.open("rokomari/#{publisher_name}.csv",'w') do |csv|
+      CSV.open("rokomari/100/#{publisher_name}.csv",'w') do |csv|
 
 
         csv << ['Title','Author','Original Price','Discounted Price','URL','Image','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
@@ -163,6 +163,7 @@ end
     puts "#{publisher_name}.csv is created"
     #byebug
   end
+  puts "#{x12} is done in CSV"
 end
 
 scraper
