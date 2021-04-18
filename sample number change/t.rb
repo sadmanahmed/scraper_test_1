@@ -1,24 +1,39 @@
 require 'csv'
 require 'byebug'
-table =CSV.parse(File.read("test.csv"),headers: true)
-byebug
-puts table[2]
+def converter
+  table =CSV.parse(File.read("test.csv"),headers: true)
+# byebug
+a = table.by_col[2]
+c1=[]
+d=[]
+st = ""
+#a ="৯০২.৫০ টাকা"
+  a.each do |x|
+    x.slice!(" টাকা")
+    #byebug
+    z = x.split("")
 
-a ="৯০২.৫০ টাকা"
-a.slice!(" টাকা")
-#byebug
-z = a.split("")
+    b1= { "১"=> "1" ,"২"=> "2"  ,"৩"=> "3" ,"৪"=> "4" ,"৫"=> "5" ,
+      "৬"=> "6" ,"৭"=> "7" ,"৮"=> "8" ,"৯"=> "9" ,"০"=> "0","."=> ".",","=> ","  }
 
-b1= { "১"=> "1" ,"২"=> "2"  ,"৩"=> "3" ,"৪"=> "4" ,"৫"=> "5" ,
-  "৬"=> "6" ,"৭"=> "7" ,"৮"=> "8" ,"৯"=> "9" ,"০"=> "0","."=> "."  }
-c=[]
-z.each do |x|
-   y = x.to_s
-   c << b1[y]
+    z.each do |x|
+       y = x.to_s
+       c1 << b1[y]
+    end
+
+    # st = ""
+    c1.map do |x|
+      st = st+x
+    end
+    c1 =[]
+    # byebug
+    d << st
+    st = ""
+     # byebug
+    # puts st
+  end
+puts d
+ byebug
 end
-st =""
-c.map do |x|
-  st = st+x
-end
-puts st
 
+converter
