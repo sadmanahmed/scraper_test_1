@@ -1,0 +1,245 @@
+Title,Author,Original Price,Discounted Price,URL,Image,Summary,Book_Title,Book_Author,Translator,Editor,Publisher,ISBN,Edition,Number Of Pages,Country,Language
+তথ্য ও যোগযোগ প্রযুক্তি (আইসিটি) (একাদশ-দ্বাদশ শ্রেণি),প্রকৌশলী মুজিবুর রহমান,TK. 336,"",https://rokomari.com//book/69151/information-and-telecommunication-technology--ict---class-xi-xii-,https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/31346c110_69151.jpg,"",তথ্য ও যোগযোগ প্রযুক্তি (আইসিটি) (একাদশ-দ্বাদশ শ্রেণি),প্রকৌশলী মুজিবুর রহমান, , ,ভয়েজার পাবলিকেশন্স, ,"8th Edition,2020",628,বাংলাদেশ,বাংলা
+স্ট্রাকচার সি/সি প্রোগ্রামিং: কাঠামোমুখী সি/সি  প্লাস প্লাস পরিগণনা,ড. মোহাম্মদ কায়কোবাদ,TK. 425,TK. 361,https://rokomari.com//book/180900/structured-c-c-programming--kathamomukhi-c-c-plus-plus-porigonona,https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/0f77f1495_180900.jpg,">> ইংলিশ বইয়ের লিংক - https://www.rokomari.com/book/185376
+
+“স্ট্রাকচার সি/সি প্রোগ্রামিং: কাঠামোমুখী সি/সি পরিগণনা” বইটির ভূমিকাঃ
+আজকের জগতে programmingএর উপস্থিতি সর্বত্র। আমরা যে বিষয়েই পড়াশােনা করি, যে বিষয় নিয়েই কাজ করি, কি কর্মক্ষেত্রে কি শিক্ষাক্ষেত্রে, এটা খুবই সম্ভব যে সেখানে আগে পিছে কোনাে এক সময় কম বা বেশি programmingএর দরকার হবে। কিন্তু আমাদের দেশের শিক্ষার্থীদের programming (পরিগণনা) শেখার দুটো প্রধান অন্তরায় রয়েছে। প্রথমটা হলাে program (ক্রমলেখ) লেখতে গেলে আমাদেরকে যন্ত্রের কাজ করার ধরন অনুযায়ী অনেক কিছু চিন্তা করতে হয়, যেখানে মানুষ হিসাবে আমাদের চিন্তা করার ধরনটা আলাদা। এই সমস্যাটা আসলে বিশ্বব্যাপী যেকোনাে দেশের শিক্ষার্থীদেরই। তবে বিস্তারিত আলােচনা ও ভালাে শিক্ষাদান পদ্ধতির কার্যকর ব্যবহার দিয়ে এই সমস্যা কাটিয়ে ওঠা সম্ভব হয়। আর সেটা হলেই একজন শিক্ষার্থী programmingএ মজা পেতে শুরু করে। তার আগে পর্যন্ত programming আসলে বিস্বাদ লাগে। আর দ্বিতীয় অন্তরায়টা যেটা আমাদের দেশের শিক্ষার্থীদের জন্য বিশেষভাবে প্রযােজ্য সেটা হলাে programmingএর ওপর মাতৃভাষায় ভালাে বই না পাওয়া। Programming বিষয়ে প্রকাশিত ভালাে বই পুস্তক প্রায় সবই বিদেশি ভাষায় বিদেশি লেখকদের লেখা। এর ফলে সেগুলাে পড়ে একজন শিক্ষার্থী ব্যাপারগুলাে অল্পসময়ে মােটামুটি বুঝতে পারলেও ব্যাখ্যা-বিশ্লেষণগুলাে একদম তাদের হদয়ের গভীরে সেভাবে পৌঁছে না। বলা হয়ে থাকে একজন শিক্ষার্থী ভালাে শেখে যখন সে তার মাতৃভাষায় তার চারপাশের জগতের সাথে নতুন জ্ঞানের সংযােগ ঘটাতে সক্ষম হয়। বিদেশি ভাষায় রচিত বিদেশি পরিবেশের সাথে মিলিয়ে লেখা বই স্বাভাবিকভাবেই আমাদের শিক্ষার্থীদের জন্য সে সংযােগ তেমন করে ঘটিয়ে দিতে সক্ষম হয় না। আমাদের তাই দরকার বাংলা ভাষায় রচিত বই পুস্তক, বিশেষ করে তরুণ শিক্ষার্থীদের যারা বিদেশি ভাষায় ওই বয়সে অত অভিজ্ঞ হয়ে উঠেনি। আমাদের দেশের শিক্ষার্থীরা যখন programming শিখতে যায় তখন তারা একসাথে এই উভয় সমস্যার মুখােমুখী হয়ে হিমশিম খায়। বাংলা ভাষায় লেখা programmingএর আমাদের এই বই এই উভয় সমস্যাকে যতটা সম্ভব মােকাবেলা করবে। এই বইটি লেখা হয়েছে নতুন যারা programming (পরিগণনা) শিখতে চায় তাদের জন্য। তবে এই বই পড়ে একজন নবিশ শিক্ষার্থীও ধাপে ধাপে দক্ষ programmer (পরিগণক) হওয়ার জন্য দরকারি জ্ঞান লাভ করতে পারবে। এই বইটিতে programming language (পরিগণনা ভাষা) হিসাবে C/C   ভাষা ব্যবহার করা হয়েছে, তবে ব্যাপ্তি কেবল structured programming (কাঠামােমুখী পরিগণনা)। এই বইটি মহাবিদ্যালয়, বিশ্ববিদ্যালয়ের শিক্ষার্থীদের জন্য, নানা স্তরে programming প্রতিযােগিতায় অংশগ্রহণকারীদের জন্য, এমনকি যারা পেশাদার programmer হতে চায় তাদের জন্যও। এই বইতে। আছে অজস্র উদাহরণ, হাজারাে বিশ্লেষণ, পরামর্শ ও কৌশল, প্রয়ােজনীয় আনুষাঙ্গিক জ্ঞান, ধারণাগত প্রশ্ন, এবং অনুশীলনী সমস্যা। অবশ্য বইটির শুরু থেকে ধরে নেওয়া হয়েছে যে একজন শিক্ষার্থীর ন্যূনতম মাধ্যমিক বা উচ্চমাধ্যমিক পর্যায়ের গণিত ও বিজ্ঞানের জ্ঞান আছে। বইটি যাতে পাঠ্য বই হিসাবে ব্যবহার করা যায় আবার শিক্ষার্থীদের কাছে অনানুষ্ঠানিকভাবেও পৌঁছানাে যায়, সে কথা মাথায় রেখে এতে বেছে নেওয়া হয়েছে আধা-আনুষ্ঠানিক ভাষা। এই বইতে প্রসঙ্গগুলাে এমন করে আলােচনা করা হয়েছে যেটা মৌখিক আলােচনার প্রায় সমপর্যায়ের। কাজেই ধরে নেওয়া যেতে পারে যে একজন প্রভাষক পড়ানাের সময় যা বলবেন ঠিক যেন সেটাই এই বইতে লেখা হয়েছে। আমাদের দেশে শিক্ষার্থীরা ভালাে শিক্ষক পায় না, বিশেষ করে গ্রামের দিকে ও মফস্বল শহরে। তাদের পক্ষে ধীরগতির internet (আন্তর্জাল) ব্যবহার করে video (ছবিয়) দেখাও সম্ভব হয়ে উঠে না। এমতাবস্থায় শিক্ষার্থীরা হাতের কাছে কাউকে না পেলেও কেবল যাতে বই পড়েই বিস্তারিত ব্যাখ্যা পেতে সমর্থ হয়, সেই প্রয়াস থেকেই এই বই লেখা। এ ছাড়া এই বই লেখতে গিয়ে নানা রকম আনুষ্ঠানিক শিক্ষণ ও শিখন তাত্ত্বিক বিষয়াদি ভাবনায় রাখা হয়েছে, যাতে একজন শিক্ষার্থী সহজে সমন্বিত জ্ঞান লাভ করতে পারে।
+আমরা যে ভাষায় অভ্যস্ত সেই ভাষা আমাদের চিন্তন ক্ষমতা ও বােঝার সক্ষমতাকে নিয়ন্ত্রণ করে। তাছাড়া একটা শব্দ সবচেয়ে ভালাে অর্থদ্যোতনা সৃষ্টি করে যদি সেটা আশেপাশের শব্দের সাথে ঐক্যতানে থাকে। একটা বিদেশি শব্দ স্বাভাবিকভাবে দেশি ভাষার অন্যান্য শব্দের সাথে মিশ খায় না। একজন ব্যক্তি হয়তাে শেষ পর্যন্ত বিদেশি ভাষা ভালােই আয়ত্তে আনতে পারে এবং একসময় হয়তাে ভাবতে শুরু করে যে বিদেশি ভাষাটা
+যেন তার নিজের ভাষা। কিন্তু সেটা সম্ভব হয় কেবল দীর্ঘ সময় চর্চার ফলে। অথচ দেশি ভাষার শব্দ একদম শুরু থেকেই প্রাকৃতিকভাবেই আপনা-আপনি শিক্ষার্থীর মনের ভেতরে অর্থ তৈরি করে। এখন প্রশ্ন হলাে নতুন শিক্ষার্থী যারা প্রযুক্তি শিখতে আগ্রহী, আমরা তাদের কাছে কোন ভাষা তুলে দেবাে। তারা কোন পর্যায়ের দক্ষতা অর্জন করুক বলে আমরা চাইবাে। যদি তাদের ভেতরে সত্যিকারের গুণগত মান সম্পন্ন অর্থবােধকতা তৈরি করতে হয় যেটা মস্তিষ্ক ও হৃদয় দুই-ই ছাপিয়ে যায় তাহলে আমাদের অবশ্যই দেশি ভাষার পরিভাষা ব্যবহার করতে হবে। কিন্তু দুঃখজনকভাবে প্রযুক্তির জগতে ব্যবহার করার জন্য বাংলায় দরকারি পরিভাষা নেই। 
+দু-একটা শব্দ যেগুলাে আছে সেগুলাে intuitive (স্বজ্ঞামূলক) না হওয়ায় সমালােচনার মুখে পড়ে। এমতাবস্থায় গণনা জগতের জন্য সহজবােধ্য পরিভাষা তৈরির দুরন্তকাজ হাতে নিয়ে আমরা এই বইয়ে প্রস্তাবিত অনেক শব্দ ব্যবহার করেছি। তবে শব্দগুলােকে ইংরেজি অক্ষরে লিখিত ইংরেজি শব্দের পাশাপাশি লেখা হয়েছে। 
+তাছাড়া বাংলা পারিভাষিক শব্দগুলাে একবার মাত্র উল্লেখ করেই ছেড়ে দেওয়া হয়নি, বরং সময়ে সময়ে খানিকটা অদরকারিভাবে হলেও পুনরাবৃত্তি করা হয়েছে। একটা শব্দ দশবার পড়লে পাঁচবার বললে নিজের হয়ে যায়, এই হলাে তার পেছনের ভাবনা। আমরা শব্দগুলােকে পাঠকের সামনে বারবার হাজির করতে চেয়েছি। এই বইয়ে আমরা ইংরেজি শব্দকে বাংলা অক্ষরে লেখি নাই, কারণ যে শব্দ যে ভাষার সেটা সেভাবে জানাই আমাদের বিবেচনায় শ্রেয়তর। প্রযুক্তি যেখানে ভাষার বৈচিত্র্য রক্ষায় চেষ্টা করে যাচ্ছে আমরা সেখানে প্রযুক্তি শেখার মাধ্যম হিসাবে নিজেদের ভাষার ব্যবহার সর্বোচ্চটা করতে চাই।
+পাঠ্যবিষয়ের কথা বিবেচনা করলে এটি এই বইয়ের প্রথম সংস্করণের অনুরূপ। দ্বিতীয় সংস্করণে কেবল সাজ-সজ্জাগত পরিবর্তন করা হয়েছে। কাজেই আমরা যত কিছু করতে চাই তার সবকিছু যে এই বইতে আধৱা, সুচারুভাবে করে ফেলেছি ঠিক তা নয়। পরের সংস্করণে বইটিতে আমরা আরাে নানারকম পরিমার্জন-পরিবর্ধন করবাে। আপাতত বইটি যদি programming শিক্ষার্থীদের বিন্দুমাত্রও কাজে লাগে তাহলে আমাদের পরিশ্রম সার্থক হয়েছে বলে আমরা মনে করবাে।
+
+Contents (সূচিপত্র)
+১ Computer Programming (গণনিতে পরিগণনা) 
+১.১ Programming Concepts (পরিগণনার ধারণা)
+১.২ C/C   Language (সি/সিপিপি ভাষা) 
+১.৩ Program Development (ক্রমলেখ বিকাশন)
+১.৪ Online Software (হয়মান মন্ত্রপাতি) 
+১.৫ Offline Software (নয়মান মন্ত্রপাতি) 
+১.৬ Command Terminal (আদেশ প্রান্তিকা)
+১.৭ C and C   Programs (সি ও সিপিপি ক্ৰমলেখ)
+১.৮ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+১.৯ Programming Problems (পরিগণনার সমস্যা) 
+১.১০ Computing Terminologies (গণনা পরিভাষা)
+২ Routine Programming (ফর্দালি পরিগণনা)
+২.১ Cheering Program (উৎসাহ দেওয়ার ক্রমলেখ) 
+২.২ Detailing Program (নাম-ধাম-বৃত্তান্তের ক্রমলেখ) 
+২.৩ Header File Inclusion (শিরনথি অন্তর্ভুক্তি) 
+২.৪ Writing Program Comments (ক্রমলেখতে টীকা লেখন) 
+২.৫ Commenting and Uncommenting (টীকা দেওয়া ও তােলা)
+২.৬ Spacing and Indentation (ফাঁকা ও ছাড়ন) 
+২.৭ Program Control Flow (ক্রমলেখতে নিয়ন্ত্রণ প্রবাহ) 
+ ২.৮ Flow Chart and. PseudoCode (প্রবাহ চিত্র ও ছদ্মসংকেত) 
+ ২.৯ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+২.১০ Programming Problems (পরিগণনার সমস্যা) 
+২.১১ Computing Terminologies (গণনা পরিভাষা)
+
+৩ Variables and Constants (চলক ও ধুবক)
+৩.১ Using Variables (চলকের ব্যবহার) 
+৩.২Using Constants (ধুবকের ব্যবহার)
+৩.৩ Multiple Definitions (একাধিক সংজ্ঞায়ন) 
+৩.৪ Initial Assignment (আদি মান আরােপণ) 
+৩.৫ Value Assignment (মান আরােপণ) 
+৩.৬ Value Swapping (মান অদল-বদল) 
+৩.৭ Left and Right Value (বাম ও ডান মান)  
+৩.৮ Assignment Left and Right (আরােপণের বাম ও ডান)  
+৩.৯ Self-Referential Assignment (আত্ম-শরণ আরােপণ) 
+৩.১০ Conceptual Questions (ধারণাগত প্রশ্নমালা)
+৩.১১ Programming Problems (পরিগণনার সমস্যা)
+৩.১২ Computing Terminologies (গণনা পরিভাষা)
+
+৪ Naming Identifiers (শনাক্তকের নামকরণ)
+৪.১ Well-Formed Names (সুগঠিত নাম) 
+৪.২ Meaningful Names (অর্থবােধক নাম) 
+৪.৩ Case Sensitivity (লিপি সংবেদনশীলতা) 
+৪.৪ Reserved and Key Words (সংরক্ষিত ও চাবি শব্দ) 
+৪.৫ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+৪.৬ Programming Problems (পরিগণনার সমস্যা) 
+৪.৭ Computing Terminologies (গণনা পরিভাষা) 
+৫ Input and Output (যােগান ও ফলন)
+৫.১ Message Output (বার্তা ফলন) 
+৫.২ Number Output (সংখ্যা ফলন) 
+Output Description (ফলন বর্ণনা)  
+৫.৪ Data Input (উপাত্ত যােগান) 
+৫.৫ Input Prompt (যােগান যাচনা) 
+৫.৬ Number Input (সংখ্যা যােগান) 
+৫.৭ Non-interactive Execution (অমিথস্ক্রিয় নির্বাহ) 
+৫.৮ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+৫.৯ Programming Problems (পরিগণনার সমস্যা) 
+৫.১০ Computing Terminologies (গণনা পরিভাষা)।
+৬ Mathematical Processing (গাণিতিক প্রক্রিয়াকরণ) 
+৬.১ Unary Operators (একিক অণুক্রিয়া) 
+৬.২ Binary Operators (দুয়িক অণুক্রিয়া) 
+৬.৩ Division and Remainder (ভাগফল ও ভাগশেষ) 
+৬.৪ Assignment Operator (আরােপণ অণুক্রিয়া) 
+৬.৫ Compound Assignments (যৌগিক আরােপণ)  
+৬.৬ Increment and Decrement (হ্রাস ও বৃদ্ধি অণুক্রিয়া) 
+৬.৭ Comma Operator (বির্তি অণুক্রিয়া) 
+ ৬.৮ Precedence Order (অগ্রগণ্যতার ক্রম) 
+৬.৯ Mathematical Problems (গাণিতিক সমস্যা)। 
+৬.১০ Header File cmath (শিরনথি cmath) 
+৬.১১ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+৬.১২ Programming Problems (পরিগণনার সমস্যা) 
+৬.১৩ Computing Terminologies (গণনা পরিভাষা) 
+৭ Conditional Programming (শর্তালি পরিগণনা)
+৭.১ If Then Else (যদি তাহলে নাহলে) 
+৭.২ Then Else Swapping (তাহলে নাহলে বদলাবদলি)  
+৭.3 Relational Operators (অন্বয়ী অণুক্রিয়া) 
+৭.৪ If-Else Ladder (যদি-নাহলে মই) 
+৭.৫ Nested If-Else (অন্তান্তি যদি-নাহলে) 
+৭.৬Dangling Else (ঝুলন্ত নাহলে) 
+৭.৭ Compound Statement (যৌগিক বিবৃতি)  
+
+১৭ C/C   Preprocessor (সি/সিপিপি পূর্বপ্রক্রিয়ক)
+১৭.১ C/C   Preprocessor (সি/সিপিপি পূর্বপ্রক্রিয়ক)
+১৭.২ Define Directive (সংজ্ঞায়ন নির্দেশিকা) 
+১৭.৩ Macros in Array Size (সাজনের আকারে গুচ্ছক) 
+১৭.৪ Function-Like Macros (বিপাতক-সদৃশ গুচ্ছক) 
+১৭.৫ Undefine Directive (অসংজ্ঞায়ন নির্দেশিকা) 
+১৭.৬ Conditional Compilation (শর্তযুক্ত সংকলন) 
+১৭.৭ Program Versions (ক্রমলেখয়ের সংস্করণ) 
+১৭.৮ Error Directive (ত্রুটি নির্দেশিকা) 
+১৭.৯; Include Directive (অন্তর্ভুক্তি নির্দেশিকা) 
+১৭.১০ Stringise and Pasting (মালাকরণ ও সাঁটানাে) 
+১৭.১১ Predefined Macros (পূর্বসংজ্ঞায়িত গুচ্ছক) 
+১৭.১২ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+১৭.১৩ Programming Problems (পরিগণনার সমস্যা) 
+১৭.১৪ Computing Terminologies (গণনা পরিভাষা) 
+১৮ Programming Projects (পরিগণনা প্রকল্প)
+১৮.১: Multi-File Programs (বহু-নথির ক্রমলেখ)  
+১৮.২ Header File Creation (শিরনথি তৈরি) 
+১৮.৩ Compiling Large Programs (বড় ক্ৰমলেখ সংকলন) 
+১৮.৪ Header File Only Projects (শিরনথি সর্বস্ব প্রকল্প) 
+১৮.৫ Using File Repositories (নথিভাণ্ডার ব্যবহার) 
+১৮.৬ Bugs in Programs (ক্রমলেখতে আপদ) 
+১৮.৭ Debugging Programs (ক্রমলেখতে আপদনাশ) 
+১৮.৮ Advanced Debugging (অগ্রসরমানের আপদনাশ) 
+১৮.৯"" Pseudorandom Numbers (ছদ্মদৈব সংখ্যা) 
+১৮.১০ Measuring Time Efficiency (সময় দক্ষতা পরিমাপ) 
+১৮.১১ Code Profiling (সংকেত পরিলেখন) 
+১৮.১২ Program Documentation (ক্রমলেখ দলিলায়ন) 
+১৮.১৩ Further Learning (আরাে শিখন) 
+১৮.১৪ Conceptual Questions (ধারণাগত প্রশ্নমালা) 
+১৮.১৫ Programming Problems (পরিগণনার সমস্যা) 
+১৮.১৬ Computing Terminologies (গণনা পরিভাষা)",স্ট্রাকচার সি/সি প্রোগ্রামিং: কাঠামোমুখী সি/সি  প্লাস প্লাস পরিগণনা,"ড. মোহাম্মদ কায়কোবাদ,ড. মু. আ. হাকিম নিউটন", , ,ভয়েজার পাবলিকেশন্স,9789843461919,"3st Published,2020",582,বাংলাদেশ,বাংলা
+Structured C/C Plus Plus Programming,ড. মোহাম্মদ কায়কোবাদ,TK. 400,TK. 340,https://rokomari.com//book/185376/structured-c-c-plus-plus-programming,https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/6274ef3ee_185376.jpg,">> বাংলা বইয়ের লিংক - https://www.rokomari.com/book/180900
+
+
+Structured C/CPP Programming:
+Introduction:
+Programming is ubiquitous in the current world operating under the great influence of evolving scientific technologies. We need programming, more or less, today or tomorrow, no matter what we do-study or work, no matter where we are-in the academia or in the industry. However, for new learners, there is a big obstacle on the way to learning programming. The obstacle comes from the fact that when we write programs, we need to think in the way a machine works, while the way we the humans work is different from that. This problem is encountered world wide by new programming learners, regardless of their native cultures and languages. Unless addressed properly, this problem makes the learning programming journey very scary and difficult. A common learner starts getting fun from programming, when this problem is adequately overcome. This book strives to address this problem using detailed expositions and providing quality teaching materials.
+This book has been written for learners who are new in learning programming. Even a novice learner can start learning programming from this book and can gradually acquire knowledge required to be an expert programmer. This book covers C/C   as the main programming language, but restricts itself only to the structured programming aspects. This book is for the students in the college and university level, for the contestants of the programming competitions, and even for the individuals who want to be professional programmers. This book has hundreds of examples, enormous analyses, suggestions and recommendations, supplementary discussions, conceptual questions, and programming problems. However, from the very beginning, the assumption made in this book is that a learner should have secondary or higher secondary mathematics and science knowledge. This book uses a semi-formal language so that it can be used as a textbook and the learners can informally easily access it as well. The detailing of a topic presented in this book is very close to that of an oral discussion. As such, this book could appear as a transcript of the lectures given by a lecturer in the class. Learners in our country often do not get experienced teachers, particularly in the rural areas and small towns. Moreover, online videos cannot be easily accessed due to slow internet speed. This book is written so that learners can get detailed explanations just by reading a book, when nobody is around.
+There are teaching and learning theories that underpin the presentation of this book so that learners can easily acquire comprehensive programming knowledge. Programming books are often written by expert programmers, who are proficient in programming but lack pedagogical knowledge. In contrast, people having pedagogical expertise lack expert level programming knowledge. Moreover, programming books often appear to be like the specification documents of the respective languages. With our long time experience in teaching, long time experience in programming in C/C  , and our knowledge of modern teaching and learning theories, in this book, we have designed the lessons inherently following various hierarchical models of educational learning. Moreover, our way of designing the lessons is outcome based as it is influenced by the constructive alignment approach and the notion of asking open ended questions whenever possible.
+With respect to the contents presented, this is the first edition of this book. There is a version of the same book written by the same authors in the Bangla language. This book is just a translation of that Bangla book. As such, the use of the English language in this book.
+
+might not be the best. We are native Bangla speakers and speak English only as a second language. The translation process might have affected the English language quality, which we believe will be greatly lifted up even when we ourselves will revise the book solely from the English version. In future, we plan to approach native English speakers to improve the language quality even further and also to consider internationalisation of the contexts and the expositions. Since the translation process has been carried out in a hurry, there could be many incidental errors in this edition. All these issues will be duly addressed in the next editions. For the time being, if this book helps learners even to a little extent in their endeavour of learning programming, we will feel highly pleased and encouraged.
+
+ Contents:
+1 Computer Programming 1
+1.1 Programming Concepts ...2
+1.2 C/C   Language ......3
+1.3 Developing Programs....4 
+1.4 Online Software .....5
+1.5 Offline Software....9 
+1.6 Command Terminal.....13
+1.7 C and C   Programs....16 
+1.8 Conceptual Questions ......16 
+1.9 Programming Problems .....16
+2 Routine Programming 18
+2.1 Cheering Program ....18
+2.2 Detailing Program ......18
+2.3 Header File Inclusion ......20
+2.4 Program Comments .......22
+2.5 Commenting and Uncommenting....25
+2.6 Spacing and Indentation .......25
+2.7 Program Control Flow ......27
+2.8 Flow Chart and Pseudocode ....29
+2.9 Conceptual Questions ......31
+2.10 Programming Problems ......32
+3 Variables and Constants 33
+3.1 Using Variables ....34
+3.2 Using Constants....36
+3.3 Multiple Definitions....39
+3.4 Initial Assignment....39
+3.5 Value Assignment .......42 
+3.6 Value Swapping ..........44 
+3.7 Left and Right Values .......46
+3.8 Assignment Left and Right ....48 
+3.9 Self-Referential Assignment ...49 
+3.10 Conceptual Questions ........51 
+3.11 Programming Problems .....51
+4 Naming Identifiers 52
+4.1 Well-Formed Names ....53 
+4.2 Meaningful Names .....54
+4.3 Case Sensitivity ......55
+4.4 Reserved And Key Words...56
+4.5 Conceptual Questions .....57
+4.6 Programming Problems ....57
+ 
+5 Input and Output 59
+5.1 Message Output ....59 
+5.2 Number Output ....61
+5.3 Output Description...63 
+5.4 Data Input .............64 
+5.5 Input Prompt..........66
+5.6 Number Input.........68
+5.7 Non-interactive Execution...69 
+5.8 Conceptual Questions .....71 
+5.9 Programming Problems...71
+6 Mathematical Processing 73
+6.1 Unary Operators ............73
+6.2 Binary Operators....74 
+6.3 Division and Remainder ...76 
+6.4 Assignment Operator ...78 
+6.5 Compound Assignments ...79 
+6.6 Increment and Decrement....80 
+6.7 Comma Operator: ...............82 
+6.8 Precedence Order ...........83
+6.9 Mathematical Problems ....85 
+6.10 Header File cmath ..86 
+6.11 Conceptual Questions ......88 
+6.12 Programming Problems ....88
+7 Conditional Programming 90
+7.1 If Then Else ................91 
+7.2 Then Else Swapping….93 
+7.3 Relational Operators…..94 
+7.4 If-Else Ladder…..95 
+7.5 Nested If-Else ....97 
+7.6 Dangling Else ...........99 
+7.7 Compound Statement....101 
+7.8 Error Detection.....103
+7.9 Boolean Connectives .....107 
+7.10 Boolean, Integer, Float .........109 
+7.11 Boolean Algebra.............110 
+7.12 Boolean Equivalence….112 
+7.13 Truth Table .....113 
+7.14 Boolean Simplification …..114 
+7.15 Ladder, Nesting, Connectives ...........116 
+7.16 If-Else Optimization ...............119 
+7.17. Ternary Operator…121 
+7.18 Switch Cases .....122
+.............
+18.6 Bugs in Programs ...551 
+18.7 Debugging Programs .....553
+18.8 Advanced Debugging .........556 
+18.9 Pseudorandom Numbers .....559 
+18.10 Measuring Time Efficiency ......561
+18.11 Code Profiling ..................562 
+18.12 Program Documentation …..564 
+18.13 Further Learning….564
+18.14 Conceptual Questions .........565 
+18.15 Programming Problems ........565",Structured C/C Plus Plus Programming,"Dr. Mohammad Kaykobad,Dr. Md. Mostofa Akbar,Dr. M. A. Hakim Newton", , ,Voyager  Publications,9789843467102,"1st Published,2019",568,Bangladesh,English
+কম্পিউটার ও তথ্য প্রযুক্তি (স্নাতক শ্রেণি),প্রকৌশলী মুজিবুর রহমান,TK. 480,TK. 408,https://rokomari.com//book/152619/computer-and-information-technology--hon-s-,https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/book_av.png,"",কম্পিউটার ও তথ্য প্রযুক্তি (স্নাতক শ্রেণি),প্রকৌশলী মুজিবুর রহমান, , ,ভয়েজার পাবলিকেশন্স,9843220927,"4th Edition,2017",732,বাংলাদেশ,বাংলা
+স্ট্রাকচারড সি/সি-প্লাস-প্লাস প্রোগ্রামিং (৩য় সংস্করণ),ড. মোহাম্মদ কায়কোবাদ,TK. 425,TK. 340,https://rokomari.com//book/200054/structured-c-c-programming--kathamomukhi-c-c-plus-plus-porigonona--3rd-edition-,https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/55205d9ef_200054.jpg,">> ইংলিশ বইয়ের লিংক - https://www.rokomari.com/book/185376
+
+
+""স্ট্রাকচারড সি/সি-প্লাস-প্লাস প্রোগ্রামিং” বইটির ভূমিকা: 
+আজকের জগতে programmingএর উপস্থিতি সর্বত্র। আমরা যে বিষয়েই পড়াশোনা করি, যে বিষয় নিয়েই কাজ করি, কি কর্মক্ষেত্রে কি শিক্ষাক্ষেত্রে, এটা খুবই সম্ভব যে সেখানে আগে পিছে কোনো এক সময় কম বা বেশি programmingএর দরকার হবে। কিন্তু আমাদের দেশের শিক্ষার্থীদের programming শেখার দুটো প্রধান অন্তরায় রয়েছে। প্রথমটা হলো program লেখতে গেলে আমাদেরকে যন্ত্রের কাজ করার ধরন অনুযায়ী অনেক কিছু চিন্তা করতে হয়, যেখানে মানুষ হিসাবে আমাদের চিন্তা করার ধরনটা আলাদা। এই সমস্যাটা আসলে বিশ্বব্যাপী যেকোনো দেশের শিক্ষার্থীদেরই। তবে বিস্তারিত আলোচনা ও ভালো শিক্ষাদান পদ্ধতির কার্যকর ব্যবহার দিয়ে এই সমস্যা কাটিয়ে ওঠা সম্ভব হয়। আর সেটা হলেই একজন শিক্ষার্থী programmingএ মজা পেতে শুরু করে। তার আগে পর্যন্ত programming আসলে বিস্বাদ লাগে। আর দ্বিতীয় অন্তরায়টা যেটা আমাদের দেশের শিক্ষার্থীদের জন্য বিশেষভাবে প্রযোজ্য সেটা হলো programmingএর ওপর মাতৃভাষায় ভালো বই না পাওয়া Programming বিষয়ে প্রকাশিত ভালো বই পুস্তক প্রায় সবই বিদেশি ভাষায় বিদেশি লেখকদের লেখা। এর ফলে সেগুলো পড়ে একজন শিক্ষার্থী ব্যাপারগুলো অল্পসময়ে মোটামুটি বুঝতে পারলেও ব্যাখ্যা-বিশ্লেষণগুলো একদম তাদের হদয়ের গভীরে সেভাবে পৌঁছে না। বলা হয়ে থাকে একজন শিক্ষার্থী ভালো শেখে যখন সে তার মাতৃভাষায় তার চারপাশের জগতের সাথে নতুন জ্ঞানের সংযোগ ঘটাতে সক্ষম হয়। বিদেশি ভাষায় রচিত বিদেশি পরিবেশের সাথে মিলিয়ে লেখা বই স্বাভাবিকভাবেই আমাদের শিক্ষার্থীদের জন্য সে সংযোগ তেমন করে ঘটিয়ে দিতে সক্ষম হয় না। আমাদের তাই দরকার বাংলা ভাষায় রচিত বই পুস্তক, বিশেষ করে তরুণ শিক্ষার্থীদের যারা বিদেশি ভাষায় ওই বয়সে অত অভিজ্ঞ হয়ে উঠেনি। আমাদের দেশের শিক্ষার্থীরা যখন programming শিখতে যায় তখন তারা একসাথে এই উভয় সমস্যার মুখোমুখী হয়ে হিমশিম খায়। বাংলা ভাষায় লেখা programmingএর আমাদের এই বই এই উভয় সমস্যাকে যতটা সম্ভব মোকাবেলা করবে। এই বইটি লেখা হয়েছে নতুন যারা programming শিখতে চায় তাদের জন্য। তবে এই বই পড়ে একজন নবিশ শিক্ষার্থীও ধাপে ধাপে দক্ষ programmer হওয়ার জন্য দরকারি জ্ঞান লাভ করতে পারবে। এই বইটিতে programming language হিসাবে C/C প্লাস প্লাস ভাষা ব্যবহার করা হয়েছে, তবে ব্যাপ্তি কেবল structured programming। এই বইটি মহাবিদ্যালয়, বিশ্ববিদ্যালয়ের শিক্ষার্থীদের জন্য, নানা স্তরে programming প্রতিযোগিতায় অংশগ্রহণকারীদের জন্য, এমনকি যারা পেশাদার programmer হতে চায় তাদের জন্যও। এই বইতে আছে অজস্র উদাহরণ, হাজারো বিশ্লেষণ, পরামর্শ, ও কৌশল, প্রয়োজনীয় আনুষাঙ্গিক জ্ঞান, ধারণাগত প্রশ্ন, এবং অনুশীলনী সমস্যা। অবশ্য বইটির শুরু থেকে ধরে নেওয়া হয়েছে যে একজন শিক্ষার্থীর ন্যূনতম মাধ্যমিক বা উচ্চমাধ্যমিক পর্যায়ের গণিত ও বিজ্ঞানের জ্ঞান আছে। বইটি যাতে পাঠ্য বই হিসাবে ব্যবহার করা যায় আবার শিক্ষার্থীদের কাছে অনানুষ্ঠানিকভাবেও পৌঁছানো যায়, সে কথা মাথায় রেখে এতে বেছে নেওয়া হয়েছে আধা-আনুষ্ঠানিক ভাষা। এই বইতে প্রসঙ্গগুলো এমন করে আলোচনা করা হয়েছে যেটা মৌখিক আলোচনার প্রায় সমপর্যায়ের। কাজেই ধরে নেওয়া যেতে পারে যে একজন প্রভাষক পড়াশোনার সময় যা বলবেন ঠিক যেন সেটাই এই বইতে লেখা হয়েছে। আমাদের দেশে শিক্ষার্থীরা ভালো শিক্ষক পায় না, বিশেষ করে গ্রামের দিকে ও মফস্বল শহরে। তাদের পক্ষে ধীরগতির internet ব্যবহার করে video দেখাও সম্ভব হয়ে উঠে না। এমতাবস্থায় শিক্ষার্থীরা হাতের কাছে কাউকে
+পেলেও কেবল যাতে বই পড়েই বিস্তারিত ব্যাখ্যা পেতে সমর্থ হয়, সেই প্রয়াস থেকেই এই বই লেখা। এ ছাড়া এই বই লেখতে গিয়ে নানা রকম আনুষ্ঠানিক শিক্ষণ ও শিখন তাত্ত্বিক বিষয়াদি ভাবনায় রাখা হয়েছে, যাতে একজন শিক্ষার্থী সহজে সমন্বিত জ্ঞান লাভ করতে পারে।br>
+আমরা যে ভাষায় অভ্যস্ত সেই ভাষা আমাদের চিন্তন ক্ষমতা ও বোঝার সক্ষমতাকে নিয়ন্ত্রণ করে। তাছাড়া একটা শব্দ সবচেয়ে ভালো অর্থদ্যোতনা সৃষ্টি করে যদি সেটা আশেপাশের শব্দের সাথে ঐক্যতানে থাকে। একটা বিদেশি শব্দ স্বাভাবিকভাবে দেশি ভাষার অন্যান্য শব্দের সাথে মিশ খায় না। একজন ব্যক্তি হয়তো শেষ পর্যন্ত বিদেশি ভাষা ভালোই আয়ত্তে আনতে পারে এবং একসময় হয়তো ভাবতে শুরু করে যে বিদেশি ভাষাটা যেন তার নিজের ভাষা। কিন্তু সেটা সম্ভব হয় কেবল দীর্ঘ সময় চর্চার ফলে। অথচ দেশি ভাষার শব্দ একদম শুরু থেকেই প্রাকৃতিকভাবেই আপনা-আপনি শিক্ষার্থীর মনের ভেতরে অর্থ তৈরি করে।
+
+এখন প্রশ্ন হলো নতুন শিক্ষার্থী যারা প্রযুক্তি শিখতে আগ্রহী, আমরা তাদের কাছে কোন ভাষা তুলে দেবো। তারা কোন পর্যায়ের দক্ষতা অর্জন করুক বলে আমরা চাইবো। যদি তাদের ভেতরে সত্যিকারের গুণগত মান সম্পন্ন অর্থবোধকতা তৈরি করতে হয় যেটা মস্তিষ্ক ও হৃদয় দুই-ই ছাপিয়ে যায় তাহলে আমাদের অবশ্যই দেশি ভাষার পরিভাষা ব্যবহার করতে হবে। কিন্তু দুঃখজনকভাবে প্রযুক্তির জগতে ব্যবহার করার জন্য বাংলায় দরকারি পরিভাষা নেই। দু-একটা শব্দ যেগুলো আছে সেগুলো intuitive না হওয়ায় সমালোচনার মুখে পড়ে। এমতাবস্থায় গণনা জগতের জন্য সহজবোধ্য পরিভাষা তৈরির দুরন্তকাজ হাতে নিয়ে আমরা এই বইয়ে। প্রস্তাবিত অনেক শব্দ ব্যবহার করেছি। তবে শব্দগুলোকে ইংরেজি অক্ষরে লিখিত ইংরেজি শব্দের পাশাপাশি লেখা হয়েছে, এবং মোটামুটিভাবে প্রথমবার ব্যবহার করেই ছেড়ে দেওয়া হয়েছে যাতে পাঠের মসৃনতা নষ্ট
+হয়। এই বইয়ে আমরা ইংরেজি শব্দকে বাংলা অক্ষরে লেখি নাই, কারণ যে শব্দ যে ভাষার সেটা সেভাবে জানাই আমাদের বিবেচনায় শ্রেয়তর।
+পাঠ্যবিষয়ের কথা বিবেচনা করলে এটি এই বইয়ের তৃতীয় সংস্করণ। প্রথম দুটি সংস্করণের থেকে ব্যাপক পরিবর্তন করা হয়েছে এই সংস্করণে। কিছু নতুন অধ্যায় যোগ করা হয়েছে, আগের কিছু অধ্যায় ভেঙে একাধিক করা হয়েছে, আবার কিছু অধ্যায়কে একসাথে করে একটা অধ্যায় করা হয়েছে, কিছু পাঠ যোগ করা হয়েছে, কিছু পাঠ তাদের অবস্থান বদল করেছে, অনেক নতুন অনুশীলনী যোগ করা হয়েছে, সর্বোপরি পড়ার ক্ষেত্রে বন্ধনীর ভেতরে বাংলা থাকায় যে পাঠের মসৃনতায় সমস্যা ছিলো সেটা দূর করা হয়েছে। এই পর্যায়ে বইটি যদি programming শিক্ষার্থীদের বিন্দুমাত্রও কাজে লাগে তাহলে আমাদের পরিশ্রম সার্থক হয়েছে বলে আমরা মনে করবো।",স্ট্রাকচারড সি/সি-প্লাস-প্লাস প্রোগ্রামিং (৩য় সংস্করণ),"ড. মোহাম্মদ কায়কোবাদ,ড. মো. মোস্তফা আকবর,ড. মু. আ. হাকিম নিউটন", , ,ভয়েজার পাবলিকেশন্স,9789843489524,"3rd Edition,2020",620,বাংলাদেশ,বাংলা
+উচ্চ মাধ্যমিক তথ্য ও যোগযোগ প্রযুক্তি সৃজনশীল প্রশ্নব্যাংক ও টেস্ট পেপার,প্রকৌশলী মুজিবুর রহমান,TK. 283,"",https://rokomari.com//book/193250/higher-secondary-information-and-communication-technology-creative-question-bank-and-test-paper,https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/07197f30e_193250.jpg,"",উচ্চ মাধ্যমিক তথ্য ও যোগযোগ প্রযুক্তি সৃজনশীল প্রশ্নব্যাংক ও টেস্ট পেপার,প্রকৌশলী মুজিবুর রহমান, , ,ভয়েজার পাবলিকেশন্স, ,"4th Edition,2019",640,বাংলাদেশ,বাংলা

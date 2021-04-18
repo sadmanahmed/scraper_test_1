@@ -20,9 +20,15 @@ per_page = products.count
 page = 1
 total_products = parsed_page.css('div.col-lg-12').text.split(' ')[-2].to_i
 
-last_page = (total_products.to_f / per_page.to_f).ceil
+#last_page = (total_products.to_f / per_page.to_f).ceil
+if total_products > 0
+  last_page = (total_products.to_f / per_page.to_f).ceil
+else
+  last_page = page
+end
 n=0
-publisher_name = parsed_page.css('li.breadcrumb-item.active').text
+#publisher_name = parsed_page.css('li.breadcrumb-item.active').text
+@publisher_name
 while page <= last_page
   x= a.delete_suffix(a[-1]) + "#{page}"
   pagination_url = x
@@ -37,8 +43,14 @@ while page <= last_page
       author: product.css('p.book-author').text,
       original_price: product.css('strike.original-price.pl-2').text,
       discounted_price: product.css('span').text,
-      url: "https://rokomari.com/"+product.css('a')[0].attributes["href"].value
+      url: "https://rokomari.com/"+product.css('a')[0].attributes["href"].value,
+      image: product.css('img')[0].attributes["data-src"].text
     }
+    if product[:original_price] == ""
+      product[:original_price] = product[:discounted_price]
+      product[:discounted_price]= ""
+    end
+    #byebug
     #puts "Added Title : #{product[:title]}"
     #puts " "
     book_url = product[:url]
@@ -62,7 +74,13 @@ while page <= last_page
       product = product.merge(book)
       product = product.merge(@book_summary)
       product_array << product
-
+      #@publisher_name = product["Publisher"]
+      if product["Publisher"] != nil
+        @publisher_name = product["Publisher"]
+      else
+        @publisher_name = "blank_name"
+      end
+      @publisher_name = @publisher_name.gsub("/"," ")
       #byebug
   end
 
@@ -74,6 +92,7 @@ temp = {
       original_price: " ",
       discounted_price: " ",
       url: " ",
+      image: " ",
       summary: " ",
       "Title" => " ",
       "Author"=>" ",
@@ -91,16 +110,16 @@ temp = {
 #byebug
 #binding.pry
 #byebug
-  CSV.open("rokomari/#{publisher_name}.csv",'w') do |csv|
+  CSV.open("rokomari/Single/#{@publisher_name}.csv",'w') do |csv|
 
 
-    csv << ['Title','Author','Original Price','Discounted Price','URL','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
+    csv << ['Title','Author','Original Price','Discounted Price','URL','Image','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
     product_array.each do |product|
       product = temp.merge(product)
       csv << CSV::Row.new(product.keys,product.values)
     end
 
-    puts "#{publisher_name}.csv is created"
+    puts "#{@publisher_name}.csv is created"
   end
 end
 scraper

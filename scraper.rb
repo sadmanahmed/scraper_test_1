@@ -14,8 +14,8 @@ parsed_page = Nokogiri::HTML(unparsed_page.body)
 pub_list = parsed_page.css("div.container>ul>li")
 
 publisher_array = Array.new
-pub_first_page = 100
-pub_last_page = 100
+pub_first_page = 53
+pub_last_page = 53
 puts "#{pub_first_page} is starting the CSV processing"
 x12 = pub_first_page
 #byebug
@@ -64,11 +64,12 @@ end
     page = 1
     total_products = parsed_page.css('div.col-lg-12').text.split(' ')[-2].to_i
 
-    if parsed_page.css('li.breadcrumb-item.active').text != nil
-      publisher_name = parsed_page.css('li.breadcrumb-item.active').text
-    else
-      publisher_name = "blank_name"
-    end
+    # if parsed_page.css('li.breadcrumb-item.active').text != nil
+    #   publisher_name = parsed_page.css('li.breadcrumb-item.active').text
+    # else
+    #   publisher_name = "blank_name"
+    # end
+    @publisher_name
     #byebug
     if total_products > 0
       last_page = (total_products.to_f / per_page.to_f).ceil
@@ -97,6 +98,10 @@ end
           url: "https://rokomari.com/"+product.css('a')[0].attributes["href"].value,
           image: product.css('img')[0].attributes["data-src"].text
         }
+        if product[:original_price] == ""
+          product[:original_price] = product[:discounted_price]
+          product[:discounted_price]= ""
+        end
         #byebug
         #puts "Added Title : #{product[:title]}"
         #puts " "
@@ -121,6 +126,13 @@ end
           product = product.merge(book)
           product = product.merge(@book_summary)
           product_array << product
+          #@publisher_name = product["Publisher"]
+          if product["Publisher"] != nil
+            @publisher_name = product["Publisher"]
+             @publisher_name = @publisher_name.gsub("/"," ")
+          else
+            @publisher_name = "blank_name"
+          end
 
           #byebug
       end
@@ -150,7 +162,7 @@ end
         }
     #byebug
 
-      CSV.open("rokomari/100/#{publisher_name}.csv",'w') do |csv|
+      CSV.open("rokomari/53/#{@publisher_name}.csv",'w') do |csv|
 
 
         csv << ['Title','Author','Original Price','Discounted Price','URL','Image','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
@@ -160,7 +172,7 @@ end
         end
       end
 
-    puts "#{publisher_name}.csv is created"
+    puts "#{@publisher_name}.csv is created"
     #byebug
   end
   puts "#{x12} is done in CSV"
