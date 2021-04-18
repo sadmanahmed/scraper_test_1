@@ -17,7 +17,7 @@ pub_list = parsed_page.css('div.category_list_single_block')
 
 publisher_array = Array.new
 
-pub_first_page = 19
+pub_first_page = 22
 pub_last_page =22
 a =url
 while pub_first_page <= pub_last_page
@@ -67,25 +67,29 @@ end
 
     #a ='৪৭০১৫৬২০১৩৮৯'
 
-    #converter
-    z = a.split("")
-    b1= { "১"=> "1" ,"২"=> "2"  ,"৩"=> "3" ,"৪"=> "4" ,"৫"=> "5" ,
-      "৬"=> "6" ,"৭"=> "7" ,"৮"=> "8" ,"৯"=> "9" ,"০"=> "0"  }
-    c=[]
-    z.each do |x|
-       y = x.to_s
-       c << b1[y]
-    end
-    st =""
-    c.map do |x|
-      st = st+x
-    end
-    # puts st
-    #converter
+    def converter(a)
+      a.slice!(" টাকা")
+      #byebug
+      z = a.split("")
 
-    total_products = st.to_i
+      b1= { "১"=> "1" ,"২"=> "2"  ,"৩"=> "3" ,"৪"=> "4" ,"৫"=> "5" ,
+            "৬"=> "6" ,"৭"=> "7" ,"৮"=> "8" ,"৯"=> "9" ,"০"=> "0",
+            "."=> ".",","=> ","  }
+      c=[]
+      z.each do |x|
+         y = x.to_s
+         c << b1[y]
+      end
+      st =""
+      c.map do |x|
+        st = st+x
+      end
+      st
+    end
+    a= converter(a)
+    total_products = a.to_i
     # puts total_products
-
+    # byebug
 
     unparsed_page = HTTParty.get(url)
     parsed_page = Nokogiri::HTML(unparsed_page.body)
@@ -122,26 +126,52 @@ end
           url: product.css('a')[0].attributes["href"].text,
           image: product.css('img')[0].attributes["src"].text
         }
-          product_array << product
+        #convertion of bangla to english
+        product[:original_price] = converter(product[:original_price])
+        product[:discounted_price] = converter( product[:discounted_price])
+        #if original is not available
+        if product[:original_price] == ""
+          product[:original_price] = product[:discounted_price]
+          product[:discounted_price]= ""
+        end
+        # byebug
+
+        product_array << product
       end
       page += 1
     end
+
     temp = {
           title: " ",
-          author: " ",
+          author: "",
           original_price: " ",
           discounted_price: " ",
           url: " ",
-          image: " "
+          image: " ",
+          summary: " ",
+          "Title" => " ",
+          "Author"=>" ",
+          "Translator"=>" ",
+          "Editor" => " ",
+          "Publisher"=>" ",
+          "ISBN"=>" ",
+          "Edition"=>" ",
+          "Number of Pages"=>" ",
+          "Country"=>" ",
+          "Language"=>" "
+
+
         }
-    # byebug
-      CSV.open("csv/#{publisher}.csv",'w') do |csv|
-        csv << ['Title','Author','Original Price','Discounted Price','URL','Image']
+     #byebug
+      CSV.open("prothoma_v1/#{publisher}.csv",'w') do |csv|
+        csv << ['Title','Author','Original Price','Discounted Price','URL','Image','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
         product_array.each do |product|
           product = temp.merge(product)
+          byebug
           csv << CSV::Row.new(product.keys,product.values)
         end
       end
+      # byebug
       driver.quit
       puts "#{publisher}.csv is created"
 
