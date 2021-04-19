@@ -17,7 +17,7 @@ pub_list = parsed_page.css('div.category_list_single_block')
 
 publisher_array = Array.new
 
-pub_first_page = 22
+pub_first_page =20
 pub_last_page =22
 a =url
 while pub_first_page <= pub_last_page
@@ -167,7 +167,7 @@ end
         csv << ['Title','Author','Original Price','Discounted Price','URL','Image','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
         product_array.each do |product|
           product = temp.merge(product)
-          byebug
+          #byebug
           csv << CSV::Row.new(product.keys,product.values)
         end
       end
