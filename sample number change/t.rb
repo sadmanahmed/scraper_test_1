@@ -4,6 +4,7 @@ def converter
   table =CSV.parse(File.read("test.csv"),headers: true)
 # byebug
 a = table.by_col[2]
+byebug
 c1=[]
 d=[]
 st = ""
