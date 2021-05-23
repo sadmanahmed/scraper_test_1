@@ -1,3 +1,4 @@
+#Scrapper for Rokomari a single publisher
 require 'nokogiri'
 require 'httparty'
 require 'byebug'
@@ -136,7 +137,11 @@ end
         }
     # byebug
       CSV.open("csv/#{publisher}.csv",'w') do |csv|
-        csv << ['Title','Author','Original Price','Discounted Price','URL','Image']
+        csv << ['title','author','original_price','discounted_price','url','image','summary',
+          'title_in_specification','author_in_specification','translator_in_specification',
+          'editor_in_specification','publisher_in_specification','isbn_in_specification',
+          'edition_in_specification','number_of_pages_in_specification','country_in_specification',
+          'language_in_specification']
         product_array.each do |product|
           product = temp.merge(product)
           csv << CSV::Row.new(product.keys,product.values)

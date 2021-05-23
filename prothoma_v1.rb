@@ -1,3 +1,4 @@
+#For All publisher of prothoma final version
 require 'nokogiri'
 require 'httparty'
 require 'byebug'
@@ -17,8 +18,8 @@ pub_list = parsed_page.css('div.category_list_single_block')
 
 publisher_array = Array.new
 
-pub_first_page =20
-pub_last_page =22
+pub_first_page =1
+pub_last_page =1
 a =url
 while pub_first_page <= pub_last_page
 
@@ -163,8 +164,12 @@ end
 
         }
      #byebug
-      CSV.open("prothoma_v1/#{publisher}.csv",'w') do |csv|
-        csv << ['Title','Author','Original Price','Discounted Price','URL','Image','Summary','Book_Title','Book_Author','Translator','Editor','Publisher','ISBN','Edition','Number Of Pages','Country','Language']
+      CSV.open("prothoma_v2/#{publisher}.csv",'w') do |csv|
+        csv << ['title','author','original_price','discounted_price','url','image','summary',
+          'title_in_specification','author_in_specification','translator_in_specification',
+          'editor_in_specification','publisher_in_specification','isbn_in_specification',
+          'edition_in_specification','number_of_pages_in_specification','country_in_specification',
+          'language_in_specification']
         product_array.each do |product|
           product = temp.merge(product)
           #byebug
